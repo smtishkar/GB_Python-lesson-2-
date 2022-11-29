@@ -19,3 +19,5 @@ y = int(input('введите позицию второго элемента : '
 for i in range(len(list)):
     mult = list[x-1] * list [y - 1]
 print (f"Произвденеие двух чисел равно {mult}")
+
+

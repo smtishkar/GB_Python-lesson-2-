@@ -12,6 +12,16 @@ sum = 0
 while number > 0:
     sum = sum + (number % 10)
     number = number // 10
-    print (sum, number)
-
+    # print (sum, number)
 print(sum)
+
+
+
+#Второй вариант
+
+# number = (input('Введите любое положительное число: '))
+# sum = 0
+# for i in number:
+#     if i !='.':
+#         sum +=int(i)
+# print(f'Sum of nums: {sum}')
